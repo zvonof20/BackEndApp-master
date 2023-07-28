@@ -29,6 +29,7 @@ public class Manager {
 
     private int sales;
 
+
     @JsonIgnore
     @OneToMany(mappedBy = "manager")
     private List<Sale> saleList;
