@@ -22,6 +22,7 @@ public class Sale {
 
     private int originalCarQuantity;
 
+
     @ManyToOne
     @JoinColumn(name="manager_id", nullable=false)
     private Manager manager;
