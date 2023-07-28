@@ -28,6 +28,7 @@ public class Car {
 
     private int quantity;
 
+
     @JsonIgnore
     @OneToMany(mappedBy = "car")
     private List<Sale> saleList;
